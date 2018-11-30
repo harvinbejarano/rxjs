@@ -1,0 +1,15 @@
+<!-- <p>
+  client works!
+</p>
+
+{{title }}
+<br>
+<pre>
+  {{todo | json }}
+</pre> -->
+
+<!-- {{data | async | json}} -->
+
+<img *ngIf="(data | async ) as todo"
+     [src]="todo.image"
+     alt="">
